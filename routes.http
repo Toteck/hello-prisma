@@ -1,0 +1,25 @@
+POST http://localhost:3333/users
+Content-Type: application/json
+
+{
+ "name": "mateus weslley",
+ "email": "mateus@gmail.com"
+} 
+### 
+GET http://localhost:3333/users
+
+###
+GET http://localhost:3333/users/1
+
+### 
+PUT http://localhost:3333/users/1
+Content-Type: application/json
+
+{
+ "name": "mateus oliveira",
+ "email": "weslley@gmail.com"
+} 
+
+
+###
+DELETE http://localhost:3333/users/1
